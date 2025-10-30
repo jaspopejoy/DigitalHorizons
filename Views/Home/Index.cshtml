@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Digital Horizon";
+}
+
+<!-- ==============================
+     Cinematic Hero Section
+     ============================== -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section container-fluid p-0">
+        <!-- Background video -->
+        <div class="hero-overlay-dark">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" id="bgvid" poster="~/videos/hero-poster.jpg">
+                <source src="~/videos/hero-loop-muted.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+        </video>
+        <script>
+            document.getElementById("bgvid").playbackRate = 1.35;
+        </script>
+        <div class="hero-dark-bottom"></div>
+
+        </div>
+
+        <!-- Parallax layers -->
+        <img src="~/imgs/Layer1.png" class="parallax layer-1" alt="Background Grid" />
+        <img src="~/imgs/layer2.webp" class="parallax layer-2" alt="Foreground Streaks" />
+
+        <!-- Text content -->
+        <div class="hero-overlay d-flex flex-column align-items-center justify-content-center text-center">
+            <h1 class="hero-title mb-0">Jason Popejoy | Front-End Developer</h1>
+        </div>
+
+        <!-- Scroll indicator (mouse shape) -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+        <div class="hero-bottom-mask"></div>
+    </section>
+
+    <!-- Optional extra content so scroll effect can be seen -->
+    <section class="content-section text-center">
+        <div class="container py-5">
+            <h2>Welcome to Digital Horizon</h2>
+            <p class="lead">Scroll to explore the immersive cinematic interface built with ASP.NET Core MVC, Bootstrap, and GSAP.</p>
+        </div>
+    </section>
+
+<!-- ==============================
+     Tech Stack Section
+     ============================== -->
+<section class="tech-stack text-center">
+    <div class="container py-5">
+        <h2 class="mb-4">Tech Stack</h2>
+        <div class="stack-icons d-flex flex-wrap justify-content-center align-items-center gap-4">
+            <div class="stack-item">ASP.NET Core MVC</div>
+            <div class="stack-item">C#</div>
+            <div class="stack-item">Bootstrap 5</div>
+            <div class="stack-item">HTML5</div>
+            <div class="stack-item">CSS3</div>
+            <div class="stack-item">JavaScript</div>
+            <div class="stack-item">GSAP</div>
+        </div>
+    </div>
+</section>
