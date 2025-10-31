@@ -56,3 +56,4 @@ Overall, I’m proud of how this project balances **cinematic atmosphere** with 
 
 ## Links
 - **Live Demo:** (https://digitalhorizons.onrender.com)  
+- **Video Walkthrough:** [Watch on Google Drive](https://drive.google.com/file/d/1Yvjf213CWpRhxBKKGtDULhYkthekxfyN/view?usp=drive_link)  
