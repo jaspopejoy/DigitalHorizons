@@ -1,10 +1,10 @@
-name: Build and deploy .NET Core application to Web App DigitalHorizons
+name: Build and deploy .NET Core application to Web App DigitalHorizon20251030200456
 on:
   push:
     branches:
     - master
 env:
-  AZURE_WEBAPP_NAME: DigitalHorizons
+  AZURE_WEBAPP_NAME: DigitalHorizon20251030200456
   AZURE_WEBAPP_PACKAGE_PATH: .\published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
@@ -43,7 +43,7 @@ jobs:
     - name: Azure Login
       uses: azure/login@v2
       with:
-        creds: ${{ secrets.DigitalHorizons_SPN }}
+        creds: ${{ secrets.DigitalHorizon20251030200456_SPN }}
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
